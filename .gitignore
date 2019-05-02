@@ -2,14 +2,15 @@ _site
 .sass-cache
 bower_components/
 #### joe made this: http://goel.io/joe
-
+Gemfile
 #####=== OSX ===#####
 .DS_Store
 .AppleDouble
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
