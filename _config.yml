@@ -1,0 +1,35 @@
+# Site settings
+## Change the values as needed.
+title: Teoria Prawdy
+email: teoriaprawdy@gmail.com
+description: "Matematykowanie"
+keywords: "matematyka, math, teoria"
+#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+url: "teoriaprawdy.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+ # facebook: brijesh
+  #twitter: brijeshb42
+  email: teoriaprawdy@gmail.com
+  github: teoriaprawdy
+exclude:
+  - bower_components
+  - README.md
+full_name: Mateusz Zugaj
+
+##set this to enable disqus commenting
+#budisqus: bitwiser
+
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: bitwiser.in
+
+plugins: [jekyll-paginate]
